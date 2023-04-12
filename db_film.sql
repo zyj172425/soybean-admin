@@ -16,7 +16,10 @@
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
+create database db_film charset = utf8;
 
+-- 进入创建的数据库
+use db_film;
 -- ----------------------------
 -- Table structure for t_admin
 -- ----------------------------
